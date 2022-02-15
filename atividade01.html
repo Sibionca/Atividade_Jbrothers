@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Atividade</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script src="jassa.js"></script>
+
+</head>
+
+<body id="bd">
+
+	<header>
+		<h1>Início</h1>
+	</header>
+	<!--header-->
+
+	<div class="retangulo"></div>
+	<!--retangulo-->
+
+	<div id="bt">
+		<button class="botoes" id="bt1" onclick="Esconder1linha()">Esconder primeira linha</button><br>
+		<button class="botoes" id="bt2" onclick="Mostrar1Linha()">Mostrar primeira linha</button><br>
+		<button class="botoes" onclick="calcular()">Calcular</button><br>
+		<button class="botoes" onclick="cor()">Cor aleatória</button><br>
+		<button class="botoes" id="limpar" onclick="LimparTudo(ip1, ip2, operacao, resultado, lista)">Limpar tudo</button><br>
+	</div>
+	<!--bt-->
+	<div id="controle">
+		<div class="resultados" id="n1">
+			<p>Numero 1</p>
+			<input type="number" id="ip1" class="borda">
+		</div>
+		<!--Numero01-->
+
+		<div class="resultados" id="opcao">
+
+			<p>Operações</p>
+			<select id="operacao" class="borda">
+				<option value="">Selecione</option>
+				<option value="+">Somar</option>
+				<option value="-">Subtrair</option>
+				<option value="*">Multiplicar</option>
+				<option value="/">Dividir</option>
+			</select>
+			<!--operacoes-->
+		</div>
+
+		<div class="resultados" id="n2">
+			<p>Numero 2</p>
+			<input id="ip2" type="number" id="ip2" class="borda">
+
+		</div>
+		<!--Numero02-->
+		<div class="resultados">
+			<p>Resultado</p>
+			<input type="number" readonly id="resultado" class="RS">
+
+		</div>
+		<!--Resultado-->
+	</div>
+	<!--controle-->
+
+	<div id="listagem">
+		<ul id="lista"></ul>
+	</div>
+</body>
+<!--body-->

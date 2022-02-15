@@ -1,0 +1,73 @@
+header {
+  background-color: black;
+  height: 50px;
+  padding: 3px;
+}
+
+.retangulo {
+  background-color: #d3d3d3;
+  height: 190px;
+  width: 94%;
+  margin-left: 2.5%;
+  margin-top: 5px;
+}
+
+h1 {
+  color: #b4aeae;
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+h2 {
+  margin: 5px 0 0 50px;
+}
+
+#bt {
+  margin-left: 35px;
+  margin-top: 25px;
+  float: left;
+}
+
+.botoes {
+  height: 35px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+#bt1 {
+  background-color: #3f6dd4;
+  color: white;
+}
+
+#bt2 {
+  background-color: #ed3636;
+  color: white;
+}
+
+#controle {
+  margin-left: 220px;
+  height: 85px;
+}
+
+.resultados {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.RS {
+  background-color: rgb(230, 228, 228);
+}
+
+#listagem {
+  width: 75%;
+  position: relative;
+  left: 35px;
+  top: 15px;
+  border: groove #d3d3d3 2px;
+  height: 450px;
+  margin-left: 210px;
+}
+
+#lista li {
+  list-style-type: none;
+}
